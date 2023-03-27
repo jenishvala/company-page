@@ -1,0 +1,41 @@
+.service {
+    padding: 40px 0px;
+
+    .design{
+        width: 64px;
+    height: 64px;
+    display: inline-block;
+    background-color: #FA541C;
+    mask: url('asset/image/ic_design.svg') no-repeat center/contain;
+    -webkit-mask: url('asset/image/ic_design.svg') no-repeat center/contain;
+    }
+
+    .card {
+        border-radius: 16px;
+        border: none;
+        box-shadow: -16px 16px 56px -8px rgba(145, 158, 171, 0.16);
+        padding: 64px 32px;
+
+        
+
+        .card-body {
+            margin: 40px;
+            padding: 0px;
+        }
+
+        h5 {
+            font-size: 18px;
+        }
+
+        p {
+            font-size: 14px;
+            line-height: 24px;
+        }
+
+        img {
+            display: inline-block;
+            margin: auto;
+        }
+
+    }
+}

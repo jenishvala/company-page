@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+h2 {
+  font-size: 44px;
+  font-weight: 700;
+  margin-top: 16px;
+  margin-bottom: 24px;
+}
+
+h6 {
+  font-weight: 600;
+  color: #919EAB;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+p {
+  color: #637381;
+}
+
+.bname {
+  color: #37AFC2;
+}
+
+.navbar {
+  margin: 20px 0px;
+  position: sticky;
+  top: 0px;
+  left: 0px;
+  z-index: 999;
+  background-color: rgba(255, 255, 255, 0.8);
+  -webkit-backdrop-filter: blur(6px);
+          backdrop-filter: blur(6px);
+}
+.navbar li a {
+  font-size: 14px;
+  font-weight: 500;
+  color: #637381;
+  margin-left: 10px;
+}
+.navbar .navbar-collapse {
+  flex-grow: 0;
+}
+.navbar .nav-item a:hover {
+  color: #37AFC2;
+}
+
+.service {
+  padding: 40px 0px;
+}
+.service .design {
+  width: 64px;
+  height: 64px;
+  display: inline-block;
+  background-color: #FA541C;
+  mask: url("asset/image/ic_design.svg") no-repeat center/contain;
+  -webkit-mask: url("asset/image/ic_design.svg") no-repeat center/contain;
+}
+.service .card {
+  border-radius: 16px;
+  border: none;
+  box-shadow: -16px 16px 56px -8px rgba(145, 158, 171, 0.16);
+  padding: 64px 32px;
+}
+.service .card .card-body {
+  margin: 40px;
+  padding: 0px;
+}
+.service .card h5 {
+  font-size: 18px;
+}
+.service .card p {
+  font-size: 14px;
+  line-height: 24px;
+}
+.service .card img {
+  display: inline-block;
+  margin: auto;
+}
+
+.work-flow {
+  padding: 60px 0px;
+}
+.work-flow .planing {
+  padding: 16px;
+  border-radius: 16px;
+  color: #770508;
+  background-color: #fdab76;
+  box-shadow: -8px 12px 32px 0px rgba(250, 84, 28, 0.2);
+  margin-bottom: 0px;
+}
+.work-flow .research {
+  padding: 16px;
+  border-radius: 16px;
+  color: #063963;
+  background-color: #77f0ed;
+  box-shadow: -8px 12px 32px 0px rgba(250, 84, 28, 0.2);
+  margin-bottom: 20px;
+}
+.work-flow .Optimizing {
+  padding: 16px;
+  border-radius: 16px;
+  color: #7a5204;
+  background-color: #ffe475;
+  box-shadow: -8px 12px 32px 0px rgba(250, 84, 28, 0.2);
+  margin-bottom: 40px;
+}
+.work-flow .results {
+  padding: 16px;
+  border-radius: 16px;
+  color: #02665b;
+  background-color: #69f290;
+  box-shadow: -8px 12px 32px 0px rgba(250, 84, 28, 0.2);
+  margin-bottom: 60px;
+}
+.work-flow .text {
+  text-align: end;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 24px;
+}
+
+.technologies {
+  padding: 50px 0px;
+}
+.technologies ul {
+  list-style: none;
+  padding-left: 0px;
+}
+.technologies ul li {
+  margin-bottom: 16px;
+}
+.technologies ul li::before {
+  background: #ff7100;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50%;
+  content: "";
+  display: inline-block;
+  margin-right: 11px;
+  height: 6px;
+  width: 6px;
+}
+.technologies .course {
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  transition: all 0.3s ease;
+}
+.technologies .course:hover {
+  box-shadow: 0 20px 20px 0 rgba(2, 19, 79, 0.1);
+  transform: translateY(-2px);
+}
+.technologies h6 {
+  color: black;
+  margin-top: 24px;
+  font-size: 16px;
+}
+.technologies img {
+  max-width: 45px;
+  max-height: 45px;
+}/*# sourceMappingURL=style.css.map */

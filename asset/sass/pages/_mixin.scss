@@ -1,0 +1,8 @@
+@mixin work($color,$bgcolor,$mb){
+    padding: 16px;
+    border-radius: 16px;
+    color: $color;
+    background-color: $bgcolor;
+    box-shadow: -8px 12px 32px 0px rgba(250, 84, 28, 0.2);
+    margin-bottom: $mb;
+}

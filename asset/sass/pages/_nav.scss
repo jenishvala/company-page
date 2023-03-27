@@ -1,0 +1,23 @@
+.navbar{
+    margin: 20px 0px;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    z-index: 999;
+    background-color:rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(6px);
+
+    li a{
+        font-size: 14px;
+        font-weight: 500;
+        color:#637381;
+        margin-left: 10px;
+    }
+    
+    .navbar-collapse{
+        flex-grow: 0;
+    } 
+    .nav-item a:hover{
+        color: $color;
+    }
+}
