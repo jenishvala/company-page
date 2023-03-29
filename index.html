@@ -7,7 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Title  -->
     <title>surat infotech</title>
-    <link rel="shortcut icon" href="asset/image/favicon.png" type="image/png">
+    <link rel="shortcut icon" href="asset/image/suratinfotech.png" type="image/png">
+    <!-- font awesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- CSS file link  -->
     <link rel="stylesheet" href="asset/css/bootstrap.min.css">
     <link rel="stylesheet" href="asset/sass/style.css">
@@ -16,13 +18,16 @@
 <body>
     <!-- Navbar  -->
     <nav class="navbar navbar-expand-lg">
-        <div class="container">
+        <div class="container position-relative">
             <img src="asset/image/logo1.png" alt="loading">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+
+            <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+                <span class="navbar-toggler-icon top-bar"></span>
+                <span class="navbar-toggler-icon bottom-bar"></span>
             </button>
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mb-2 mb-lg-0">
                     <li class="nav-item">
@@ -32,31 +37,34 @@
                         <a class="nav-link" href="#process">Process</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Technologies</a>
+                        <a class="nav-link" href="#technologies">Technologies</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Our Core Values</a>
+                        <a class="nav-link" href="#core-value">Our Core Values</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">clients</a>
+                        <a class="nav-link" href="#vision">vision</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact us</a>
+                        <a class="nav-link" href="#client">clients</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact us</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <section>
+    <section class="front-page position-relative">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
+                <div class="col-lg-5 align-self-center">
                     <h1>Create Your Website Today with <br><span class="bname">SURAT INFOTECH</span></h1>
                     <p>The surat infotech is built on top of MUI, a powerful library that provides flexible,
                         customizable, and easy-to-use components.</p>
                 </div>
-                <div class="col-lg-6">
+                <div class="col-lg-7 home-hero">
                     <img src="asset/image/home_hero.png" class="img-fluid" alt="loading">
                 </div>
             </div>
@@ -87,7 +95,7 @@
                     </div>
 
                     <div class="col-md-6 col-lg-4 mb-3">
-                        <div class="card text-center">
+                        <div class="card text-center website">
                             <img src="asset/image/ic_development.svg" class="img-fluid" alt="loading">
                             <div class="card-body">
                                 <h5>Website Development</h5>
@@ -96,8 +104,8 @@
                         </div>
                     </div>
 
-                    <div class="col-md-6 col-lg-4 mb-3">
-                        <div class="card text-center">
+                    <div class="col-md-6 col-lg-4 mb-3 E-commerce">
+                        <div class="card text-center develop">
                             <img src="asset/image/ic_social_media.svg" class="img-fluid" alt="loading">
                             <div class="card-body">
                                 <h5>E-commerce Development</h5>
@@ -106,7 +114,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
     </section>
@@ -117,110 +125,535 @@
                 <div class="col-lg-6 text-center text-lg-start">
                     <h6>work flow</h6>
                     <h2>Working Process</h2>
-                    <p>We follow a dedicated process to develop a solution for you. For every development, we go in sprint mode and follow the proper methodology to give you a reliable and cost-effective solution.</p>
+                    <p>We follow a dedicated process to develop a solution for you. For every development, we go in
+                        sprint mode and follow the proper methodology to give you a reliable and cost-effective
+                        solution.</p>
                 </div>
             </div>
 
             <div>
                 <div class="row align-items-lg-end">
-                  <div class="col-md-6 col-lg-3">
-                    <div class="planing">
-                        <div><img src="asset/image/planing.svg" alt="loading"></div>
-                        <div class="text">Planing </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="planing effect mb-sm-4 mb-md-0">
+                            <div><img src="asset/image/planing.svg" alt="loading"></div>
+                            <div class="text">Planing</div>
+                            <div class="overlay">
+                                <div class="flow">
+                                    <h3>
+                                        CREATE YOUR BUSINESS WEBSITE
+                                        (E-COMMERCE STORE)
+                                    </h3>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
 
-                  <div class="col-md-6 col-lg-3">
-                    <div class="research">
-                        <div><img src="asset/image/search.svg" alt="loading"></div>
-                        <div class="text">Research</div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="research effect">
+                            <div><img src="asset/image/search.svg" alt="loading"></div>
+                            <div class="text">Research</div>
+                            <div class="overlay">
+                                <div class="flow">
+                                    <h3>UPDATE THE WEBSITE (PRODUCT) REGULARLY</h3>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
 
-                  <div class="col-md-6 col-lg-3">
-                    <div class="Optimizing">
-                        <div><img src="asset/image/optimization.svg" alt="loading"></div>
-                        <div class="text">Optimizing </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="Optimizing effect">
+                            <div><img src="asset/image/optimization.svg" alt="loading"></div>
+                            <div class="text">Optimizing</div>
+                            <div class="overlay">
+                                <div class="flow">
+                                    <h3>YOUR BUSINESS GETS DISCOVERED ONLINE AND GENERATE UNIQUE LEADS</h3>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
 
-                  <div class="col-md-6 col-lg-3">
-                    <div class="results">
-                        <div><img src="asset/image/analysis.svg " alt="loading"></div>
-                        <div class="text">Results </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="results effect">
+                            <div><img src="asset/image/analysis.svg " alt="loading"></div>
+                            <div class="text">Results </div>
+                            <div class="overlay">
+                                <div class="flow">
+                                    <h3>PROMOTE WEBSITE TO GET EVEN MORE BUSINESS</h3>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
 
                 </div>
-              </div>         
+            </div>
         </div>
     </section>
 
-    <section class="technologies">
+    <section class="technologies" id="technologies">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6">
-                    <h2>Technologies We Focus On</h2>
-                    <p>We help the startup as well as entrepreneurs to choose the most suitable technology for their online platform. Peep into the piles of technology & tools we offer.</p>
-                    <ul>
-                        <li>Laravel</li>
-                        <li>VueJS</li>
-                        <li>NodeJS</li>
-                        <li>React</li>
-                        <li>MongoDB</li>
-                        <li>PostgreSQL</li>
-                        <li>AWS</li>
-                        <li>mysql</li>
-                        <li>PHP</li>
-                        <li>javascript</li>
-                        <li>Css</li>
-                        <li>html</li>
-                        <li>Amazon S3</li>
-                        <li>digital ocean</li>
-                        <li>WordPress</li>
-                        <li>Shopify</li>
-                    </ul>
+                <div class="col-12 col-lg-4">
+                    <div class="tech">
+                        <h5>Technologies</h5>
+                        <h2>Technologies We Focus On</h2>
+                        <p>We help the startup as well as entrepreneurs to choose the most suitable technology for their
+                            online platform. Peep into the piles of technology & tools we offer.</p>
+                    </div>
                 </div>
-                <div class="col-lg-6"> 
+                <div class="col-12 col-lg-7 offset-lg-1 mt-4 mt-lg-0">
                     <div class="row text-center">
-                        <div class="col-3">
+                        <div class="col-12 col-md-4 col-lg-3">
                             <div class="course">
                                 <img src="asset/image/laravel.png" alt="loading" class="img-fluid">
                                 <h6>Laravel</h6>
                             </div>
                         </div>
 
-                        <div class="col-3">
+                        <div class="col-12 col-md-4 col-lg-3 mt-3 mt-md-0">
                             <div class="course">
                                 <img src="asset/image/vuejs.png" alt="loading" class="img-fluid">
                                 <h6>VueJS</h6>
                             </div>
                         </div>
 
-                        <div class="col-3">
+                        <div class="col-12 col-md-4 col-lg-3 mt-3 mt-md-0">
                             <div class="course">
                                 <img src="asset/image/nodejs.png" alt="loading" class="img-fluid">
-                                <h6>NodeJS</h6>                       
+                                <h6>NodeJS</h6>
                             </div>
                         </div>
 
-                        <div class="col-3">
+                        <div class="col-12 col-md-4 col-lg-3 mt-3 mt-lg-0">
                             <div class="course">
                                 <img src="asset/image/react.png" alt="loading" class="img-fluid">
                                 <h6>React</h6>
                             </div>
                         </div>
 
-                        
-                    </div>
+                        <div class="col-12 col-md-4 col-lg-3 mt-3">
+                            <div class="course">
+                                <img src="asset/image/mongodb.png" alt="loading" class="img-fluid">
+                                <h6>MongoDB</h6>
+                            </div>
+                        </div>
 
+                        <div class="col-12 col-md-4 col-lg-3 mt-3">
+                            <div class="course">
+                                <img src="asset/image/postgresql.png" alt="loading" class="img-fluid">
+                                <h6>PostgreSQL</h6>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-4 col-lg-3 mt-3">
+                            <div class="course">
+                                <img src="asset/image/aws.png" alt="loading" class="img-fluid">
+                                <h6>AWS</h6>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-4 col-lg-3 mt-3">
+                            <div class="course">
+                                <img src="asset/image/mysql.png" alt="loading" class="img-fluid">
+                                <h6>mysql</h6>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-4 col-lg-3 mt-3">
+                            <div class="course">
+                                <img src="asset/image/php.png" alt="loading" class="img-fluid">
+                                <h6>PHP</h6>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-4 col-lg-3 mt-3">
+                            <div class="course">
+                                <img src="asset/image/js.png" alt="loading" class="img-fluid">
+                                <h6>javascript</h6>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-4 col-lg-3 mt-3">
+                            <div class="course">
+                                <img src="asset/image/css.png" alt="loading" class="img-fluid">
+                                <h6>Css</h6>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-4 col-lg-3 mt-3">
+                            <div class="course">
+                                <img src="asset/image/html.png" alt="loading" class="img-fluid">
+                                <h6>html</h6>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-4 col-lg-3 mt-3">
+                            <div class="course">
+                                <img src="asset/image/amazons3.png" alt="loading" class="img-fluid">
+                                <h6>Amazon S3</h6>
+                            </div>
+                        </div>
+
+                        <div class="col-12 col-md-4 col-lg-3 mt-3">
+                            <div class="course">
+                                <img src="asset/image/digitalocean.png" alt="loading" class="img-fluid">
+                                <h6>digital ocean</h6>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-3 mt-3">
+                            <div class="course">
+                                <img src="asset/image/wordpress.png" alt="loading" class="img-fluid">
+                                <h6>WordPress</h6>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-4 col-lg-3 mt-3">
+                            <div class="course">
+                                <img src="asset/image/shopify.png" alt="loading" class="img-fluid">
+                                <h6>Shopify</h6>
+                            </div>
+                        </div>
+
+                    </div>
                 </div>
             </div>
-            
         </div>
-
     </section>
 
+    <section class="core-value" id="core-value">
+        <div class="container">
+            <div>
+                <h2>Our Core Values</h2>
+            </div>
+
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-3">
+                    <div class="card text-center customer">
+                        <img src="asset/image/ic_agreement.svg" class="img-fluid" alt="loading">
+                        <div class="card-body">
+                            <h5>Customer Satisfaction</h5>
+                            <p>This is a longer card with supporting text below as a natural.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-3">
+                    <div class="card text-center">
+                        <img src="asset/image/ic_transparency.svg" class="img-fluid" alt="loading">
+                        <div class="card-body">
+                            <h5>Transparency</h5>
+                            <p>This is a longer card with supporting text below as a natural.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-3">
+                    <div class="card text-center">
+                        <img src="asset/image/ic_reputation.svg" class="img-fluid" alt="loading">
+                        <div class="card-body">
+                            <h5>Reputation</h5>
+                            <p>This is a longer card with supporting text below as a natural.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-3 mb-3">
+                    <div class="card text-center">
+                        <img src="asset/image/ic_popularity.svg" class="img-fluid" alt="loading">
+                        <div class="card-body">
+                            <h5>Cooperation</h5>
+                            <p>This is a longer card with supporting text below as a natural.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="vision" id="vision">
+        <div class="container">
+            <div>
+                <h2>Our Vision & Mission</h2>
+            </div>
+
+            <div>
+                <div class="row">
+                    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 col-md-12">
+                        <div class="row">
+                            <div class="col-md-6 align-self-center second">
+                                <div class="bg-white goal mt-4">
+                                    <img src="asset/image/our-vision.png" class="img-fluid" alt="loading">
+                                    <h3>Our Vision</h3>
+                                    <p>To provide reliable and simple solutions for the complex problems.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-md-6 first">
+                                <div class=" bg-white goal mt-4">
+                                    <img src="asset/image/our-mission.png" class="img-fluid" alt="loading">
+                                    <h3>Our Mission</h3>
+                                    <ul>
+                                        <li>Empower businesses with digital solutions to make their business processes
+                                            more efficient.</li>
+                                        <li>Increase the success rate in migrating decade old systems to latest
+                                            technologies.</li>
+
+                                    </ul>
+                                </div>
+
+                                <div class="bg-white goal mt-4">
+                                    <img src="asset/image/code-values.png" class="img-fluid" alt="loading">
+                                    <h3>Code values</h3>
+                                    <ul>
+                                        <li>Reliability: Bases of trust is reliability</li>
+                                        <li>Simplicity: Develop simple solutions for non simpler problem</li>
+                                        <li>Out of box thinking: Brainstorming for the future</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="case-study">
+        <div class="container">
+            <div class="row">
+                <div class="col-6">
+                    <div class="case">
+                        <div>
+                            <img src="asset/image/marketing_4.jpg" alt="loading">
+                        </div>
+                        <div class="project">
+                            <h6>MARKETING</h6>
+                            <h4>Digital Shose</h4>
+                            <p>Praesent vestibulum dapibus nibh. Vestibulum fringilla pede sit amet augue.</p>
+                            <a href="" class="text-dark text-end d-block">learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-2 align-self-lg-end">
+                    <div class="position-relative"> 
+                        <img src="asset/image/marketing_4.jpg" alt="loading" class="zoom">
+                        <div class="upper">
+                            <h6>SEO</h6>
+                            <h3>action</h3>
+                        </div>
+                        <div class="layout"></div>
+                    </div>
+                </div>
+                         
+            </div>
+        </div>
+    </section> -->
+
+    <section class="client" id="client">
+        <div class="container">
+            <div>
+                <h2 class="text-center">
+                    I'm proud to have collaborated with some <br> awesome companies:
+                </h2>
+            </div>
+            <div class="company">
+                <div class="row">
+                    <div class="col-6 col-lg-3">
+                        <img src="asset/image/briteweb.svg" alt="loading" class="img-fluid">
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <img src="asset/image/briteweb.svg" alt="loading" class="img-fluid">
+                    </div>
+                    <div class="col-6 col-lg-3 mt-4 mt-lg-0">
+                        <img src="asset/image/briteweb.svg" alt="loading" class="img-fluid">
+                    </div>
+                    <div class="col-6 col-lg-3 mt-4 mt-lg-0">
+                        <img src="asset/image/briteweb.svg" alt="loading" class="img-fluid">
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-6 col-lg-3">
+                        <img src="asset/image/briteweb.svg" alt="loading" class="img-fluid">
+                    </div>
+                    <div class="col-6 col-lg-3">
+                        <img src="asset/image/briteweb.svg" alt="loading" class="img-fluid">
+                    </div>
+                    <div class="col-6 col-lg-3 mt-4 mt-lg-0">
+                        <img src="asset/image/briteweb.svg" alt="loading" class="img-fluid">
+                    </div>
+                    <div class="col-6 col-lg-3 mt-4 mt-lg-0">
+                        <img src="asset/image/briteweb.svg" alt="loading" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <div>
+                <h2>contact us</h2>
+            </div>
+            <div class="row contact-page">
+                <div class="col-lg-6">
+                    <div>
+                        <img src="asset/image/contact_us.svg" alt="loading" class="img-fluid">
+                    </div>
+                    <div class="information">
+                        <div class="d-flex about">
+                            <div>
+                                <i class="fa fa-map-marker" style="font-size:22px"></i>
+                            </div>
+                            <div class="des">
+                                <h5 class="mb-0">Visit us</h5>
+                                <p>3034, silver business hub near mota varacha ,surat.</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex about">
+                            <div>
+                                <i class="fa fa-phone" style="font-size:22px"></i>
+                            </div>
+                            <div class="des">
+                                <h5 class="mb-0">Call us</h5>
+                                <p>+91 70698-31542</p>
+                            </div>
+                        </div>
+
+                        <div class="d-flex about">
+                            <div>
+                                <i class="fa fa-envelope-o" style="font-size:22px"></i>
+                            </div>
+                            <div class="des">
+                                <h5 class="mb-0">Talk to us</h5>
+                                <p>hello@example.com</p>
+                            </div>
+                        </div>
+
+                        <!-- <div class="d-flex about">
+                            <div>
+                                <i class="fa fa-clock-o" style="font-size:36px"></i>
+                            </div>
+                            <div class="des">
+                                <h5>Working Hours</h5>
+                                <p>Mon-Fri: 9 pm — 6 am</p>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div>
+                        <h1>Ready To Get Started?</h1>
+                    </div>
+                    <form class="row g-3" action="">
+                        <div class="col-md-6">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput"
+                                    placeholder="enter your first name">
+                                <label for="floatingInput">First Name</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput"
+                                    placeholder="enter your Last name">
+                                <label for="floatingInput">Last Name</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating mb-3">
+                                <input type="email" class="form-control" id="floatingInput"
+                                    placeholder="name@example.com" required>
+                                <label for="floatingInput">Email</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="form-floating mb-3">
+                                <input type="number" class="form-control" id="floatingInput"
+                                    placeholder="enter your Number">
+                                <label for="floatingInput">Phone Number</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="enter name">
+                                <label for="floatingInput">Company</label>
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="form-floating mb-3">
+                                <input type="text" class="form-control" id="floatingInput" placeholder="enter Website">
+                                <label for="floatingInput">Website</label>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a message here" id="floatingTextarea2"
+                                    style="height: 100px"></textarea>
+                                <label for="floatingTextarea2">Message</label>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Send Request</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-lg-4">
+                    <img src="asset/image/logo1.png" alt="">
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 mt-4 mt-lg-0">
+                    <h5>Email</h5>
+                    <div class="d-flex">
+                        <div>
+                            <i class="fa fa-envelope-o" style="font-size:20px"></i>
+                        </div>
+                        <div class="des">
+                            <p><a href="https://mail.google.com/" target="_blank">hello@example.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3 mt-4 mt-lg-0">
+                    <h5>Address</h5>
+                    <div class="d-flex">
+                        <div>
+                            <i class="fa fa-map-marker" style="font-size:20px"></i>
+                        </div>
+                        <div class="des">
+                            <p><a href="https://goo.gl/maps/nGsqA9JpQYiiWKp57" target="_blank">3034, silver business hub
+                                    near mota varacha ,surat.</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-4 col-lg-2 mt-4 mt-lg-0">
+                    <h5>Navigation</h5>
+                    <div>
+                        <ul>
+                            <li>Service</li>
+                            <li>Process</li>
+                            <li>Technologies</li>
+                            <li>Our Core Values</li>
+                            <li>our vision & Mission</li>
+                            <li>clients</li>
+                            <li>Contact us</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-12 mt-4">
+                    <p class="text-center">© Copyright - Surat Infotech. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
     <!-- Js file link  -->
     <script src="asset/js/popper.min.js"></script>
     <script src="asset/js/bootstrap.min.js"></script>

@@ -1,46 +1,97 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 $color: #37AFC2;
-$pcolor:#637381;
+$pcolor: #637381;
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-html {
-    scroll-behavior: smooth;
-  }
-body {
-    font-family: 'Poppins', sans-serif;
+
+a {
+    text-decoration: none;
 }
 
-h1{
-    font-size: 64px;
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    font-size: 54px;
     font-weight: 700;
     margin-bottom: 25px;
 }
-h2{
-    font-size: 44px;
+
+h2 {
+    font-size: 38px;
     font-weight: 700;
     margin-top: 16px;
     margin-bottom: 24px;
 }
-h6{
+
+h6,
+.h6 {
     font-weight: 600;
     color: #919EAB;
     text-transform: uppercase;
     font-size: 12px;
 }
-p{
+
+h5 {
+    font-size: 18px;
+    margin-bottom: 16px;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+p {
     color: $pcolor;
 }
-.bname{
+
+.bname {
     color: $color;
 }
 
+@media (max-width: 576px) {
+    h1 {
+        font-size: 38px !important;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
 
+    h2 {
+        font-size: 28px;
+    }
+}
+
+@media (max-width:796px) {
+    h1 {
+        font-size: 46px;
+    }
+
+    h2 {
+        font-size: 32px;
+    }
+}
+
+@import "pages/front-page";
 @import "pages/nav";
 @import "pages/service";
 @import "pages/work-flow";
 @import "pages/technologies";
+@import "pages/core-value";
+@import "pages/vision";
+@import "pages/case-study";
+@import "pages/client";
+@import "pages/contact";
+@import "pages/footer";

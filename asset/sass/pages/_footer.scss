@@ -1,0 +1,30 @@
+.footer {
+    padding: 80px 0px 10px;
+
+    .d-flex:hover i,
+    .d-flex:hover p a{
+        color: $color;
+    }
+
+    .des p a{
+        color: #575757;
+        font-size: 15px;
+        text-decoration: none;
+    }
+
+    ul {
+        list-style: none;
+        padding-left: 0px;
+
+        & li {
+            font-size: 15px;
+            color: #575757;
+            margin: 10px 0px;
+
+            &:hover {
+                color: $color;
+            }
+        }
+    }
+
+}

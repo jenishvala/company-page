@@ -1,0 +1,13 @@
+.client{
+    padding:80px 0px;
+
+    .company{
+        padding-top:48px;
+    }
+}
+
+@media (max-width: 720px) {
+    .company{
+        padding:25px !important;
+    }
+}
