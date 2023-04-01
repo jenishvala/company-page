@@ -41,7 +41,7 @@
   }
 
   .planing {
-    @include work(#770508, #fdab76, 0px);
+    @include work(#770508, #fdab76, 25px);
 
     .overlay {
       @include overlay(#fdab76);
@@ -49,7 +49,7 @@
   }
 
   .research {
-    @include work(#063963, #77f0ed, 20px);
+    @include work(#063963, #77f0ed, 25px);
 
     .overlay {
       @include overlay(#77f0ed);
@@ -57,7 +57,7 @@
   }
 
   .Optimizing {
-    @include work(#7a5204, #ffe475, 40px);
+    @include work(#7a5204, #ffe475, 55px);
 
     .overlay {
       @include overlay(#ffe475);
@@ -65,7 +65,7 @@
   }
 
   .results {
-    @include work(#02665b, #69f290, 60px);
+    @include work(#02665b, #69f290, 85px);
 
     .overlay {
       @include overlay(#69f290);
@@ -84,21 +84,17 @@
   }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
   .work-flow {
     padding: 40px 0px;
   }
 
-  .research {
-    margin-top: 16px;
-  }
-
   .Optimizing {
-    margin-bottom: 16px !important;
+    margin-bottom: 30px !important;
   }
 
   .results {
-    margin-bottom: 0px !important;
+    margin-bottom: 85px !important;
   }
 }
 

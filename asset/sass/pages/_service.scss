@@ -16,15 +16,39 @@
         border: none;
         padding: 64px 32px;
         transition: all 0.6s ease;
-        background-color: #f8f9fa;
+        background-color: #fff;
+        box-shadow: 0 0 11px rgba(33, 33, 33, .2);
+        overflow: hidden;
 
-        &:hover {
-            box-shadow: 0 0 11px rgba(33,33,33,.2);
+        &::after,
+        &::before {
+            width: 120px;
+            height: 120px;
+            content: '';
+            position: absolute;
+            border-radius: 50%;
+            background: $color;
+            opacity: 0.7;
+            transition: .5s linear;
+            transform: scale(1);
+            transition: all 0.3s ease;
+        }
+
+        &::after {
+            top: -10%;
+            left: -10%;
+        }
+
+        &::before {
+            bottom: -10%;
+            right: -10%;
         }
 
         .card-body {
             margin: 40px;
             padding: 0px;
+            transform: scale(1);
+            transition: all 0.3s ease;
         }
 
         p {
@@ -35,6 +59,18 @@
         img {
             display: inline-block;
             margin: auto;
+            transform: scale(1);
+            transition: all 0.3s ease;
+        }
+
+        &:hover  .card-body {
+            transform: scale(1.1);
+        }
+
+        &:hover::after, 
+        &:hover::before ,
+        &:hover img {
+            transform: scale(1.2);
         }
 
     }
