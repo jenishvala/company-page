@@ -1,13 +1,16 @@
 .footer {
+    border-top: 3px solid #ffffff;
     padding: 80px 0px 10px;
+    background-position: right;
+    background-repeat: no-repeat;
 
     .d-flex:hover i,
-    .d-flex:hover p a{
+    .d-flex:hover p a {
         color: $color;
     }
 
-    .des p a{
-        color: #575757;
+    .des p a {
+        color: #000;
         font-size: 15px;
         text-decoration: none;
     }
@@ -17,12 +20,14 @@
         padding-left: 0px;
 
         & li {
-            font-size: 15px;
-            color: #575757;
-            margin: 10px 0px;
+            a {
+                font-size: 15px;
+                color: #000;
+                margin: 10px 0px;
 
-            &:hover {
-                color: $color;
+                &:hover {
+                    color: $color;
+                }
             }
         }
     }

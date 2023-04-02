@@ -1,15 +1,44 @@
-.front-page{
+.front-page {
     width: 100%;
-    height:100vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
     margin-top: 85px;
+
+    h1 {
+        font-size: 65px;
+    }
+
+    .home-hero {
+        animation: Moveupdown 3s infinite alternate;
+        img {
+            transform: scale(1.2, 1.4);
+            margin-left: 50px;
+        }
+    }
 }
 
-@media (max-width: 991.98px) { 
-    .front-page{
-        height:auto;
+@media (max-width: 991.98px) {
+    .front-page {
+        height: auto;
+
+        .home-hero {
+            padding: 40px 0px;
+            img {
+                transform: scale(1, 1.3);
+                margin-left: 0px;
+            }
+        }
     }
- }
+}
+
+@keyframes Moveupdown {
+    0% {
+      transform: translateY(0);
+    }
+  
+    100% {
+      transform: translateY(25px);
+    }
+  }
