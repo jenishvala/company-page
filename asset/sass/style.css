@@ -729,8 +729,13 @@ textarea:focus + label {
 .footer {
   border-top: 3px solid #ffffff;
   padding: 80px 0px 10px;
-  background-position: right;
-  background-repeat: no-repeat;
+}
+.footer .navbar-toggler {
+  padding: 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transition: all 0.4s ease;
 }
 .footer #contact_footer .d-flex a,
 .footer #contact_footer .d-flex i {
