@@ -35,14 +35,22 @@
             border: none;
             background: transparent;
 
-            &:hover img {
+            &:hover .card-img img {
                 opacity: 0.8;
+                transform: scale(1);
             }
 
-            img {
+            .card-img {
                 border-radius: 16px;
                 max-height: 336px;
+                overflow: hidden;
+                img {
+                    cursor: pointer;
+                    transform: scale(1.1);
+                    transition: all 0.3s ease;
+                }
             }
+
 
             .card-title {
                 font-weight: 700;

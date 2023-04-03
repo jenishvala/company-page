@@ -152,6 +152,19 @@ p {
     padding: 0%
 }
 
+.arrow-up {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 11px 12px;
+   i {
+    color: #FFF;
+   }
+}
+
 @import "pages/front-page";
 @import "pages/nav";
 @import "pages/service";
