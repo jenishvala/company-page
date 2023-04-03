@@ -7,23 +7,22 @@
     }
 
     .card {
-        background-color: #eaf3fa;
+        background-color: #fff;
         border: none;
         padding: 20px;
         transition: all 0.6s ease;
         border: none;
-       
+        box-shadow: -6px 0px 15px rgba(33, 33, 33, 0.2);
 
-        &:hover {
-            // box-shadow: -16px 16px 70px -8px rgba(145, 158, 171, 0.16);
-            // background-color: white;
-            box-shadow: 0 0 11px rgba(33, 33, 33, .2);
-        }
+        // &:hover {
+        //     // box-shadow: -16px 16px 70px -8px rgba(145, 158, 171, 0.16);
+        //     // background-color: white;
+        // }
 
         img {
             display: inline-block;
             margin: auto;
-
+            padding-top: 20px;
         }
 
         h5 {

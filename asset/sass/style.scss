@@ -96,6 +96,7 @@ p {
 .border_title {
     position: relative;
     z-index: 1;
+    padding: 0%;
 }
 
 .border_title::after {
@@ -139,6 +140,16 @@ p {
         background-color: $color;
         opacity: 0.8;
     }
+}
+
+.sub_heading {
+    font-weight: 600 !important;
+    color: #919EAB !important;
+    text-transform: uppercase !important;
+    font-size: 12px !important;
+    width: fit-content;
+    border-bottom: 2px solid $color;
+    padding: 0%
 }
 
 @import "pages/front-page";

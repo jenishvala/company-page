@@ -20,7 +20,7 @@
         box-shadow: 0 0 11px rgba(33, 33, 33, .2);
         overflow: hidden;
 
-        &::after,
+        // &::after,
         &::before {
             width: 120px;
             height: 120px;
@@ -34,10 +34,10 @@
             transition: all 0.3s ease;
         }
 
-        &::after {
-            top: -10%;
-            left: -10%;
-        }
+        // &::after {
+        //     top: -10%;
+        //     left: -10%;
+        // }
 
         &::before {
             bottom: -10%;
@@ -67,7 +67,7 @@
             transform: scale(1.1);
         }
 
-        &:hover::after, 
+        // &:hover::after, 
         &:hover::before ,
         &:hover img {
             transform: scale(1.2);
